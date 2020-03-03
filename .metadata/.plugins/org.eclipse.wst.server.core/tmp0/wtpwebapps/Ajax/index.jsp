@@ -1,0 +1,40 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<title>JSP AJAX</title>
+	<script src= "https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="form-group row pull-right">
+			<div class="col-xs-8">
+				<input class="form-control" type="text" size="20">
+			</div>
+			<div class="col-xs-2">
+				<button class="btn btn-primary" type="button">검색</button>
+			</div>
+		</div>
+		<table class="table" style="text-align: center; border: 1px solid #dddddd">
+			<thead>
+				<tr>
+					<td style="background-color: #fafafa; text-align:center;">이름</td>
+					<td style="background-color: #fafafa; text-align:center;">나이</td>
+					<td style="background-color: #fafafa; text-align:center;">성별</td>
+					<td style="background-color: #fafafa; text-align:center;">이메일</td>
+				</tr>
+			</thead>	
+				<tr>
+					<td>나동빈</td>
+					<td>22</td>
+					<td>남자</td>
+					<td>eee@eee</td>
+				</tr>
+	</div>
+</body>
+</html>
